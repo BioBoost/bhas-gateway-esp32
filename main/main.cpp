@@ -4,6 +4,9 @@
 #include "message_printer.h"
 #include "json_encoder.h"
 
+// TODO: I think we should be able to make the mbed library compatible with ESP
+// of we extract all the mbed specific stuff to separate library.
+
 using BHAS::Communication::Message;
 using BHAS::Logging::MessagePrinter;
 using BHAS::Communication::Encoders::JSONEncoder;
